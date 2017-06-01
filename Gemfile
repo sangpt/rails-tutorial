@@ -8,6 +8,8 @@ end
 gem "rails", "~> 5.1.1"
 gem "mysql2", ">= 0.3.18", "< 0.5"
 gem "bootstrap-sass", "3.3.6"
+gem "bcrypt", "3.1.11"
+gem "config"
 gem "puma", "~> 3.7"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", ">= 1.3.0"
