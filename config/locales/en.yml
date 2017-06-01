@@ -1,33 +1,48 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  static_pages:
+    home:
+      greeting: "Welcome to the Sample App"
+      home_page: "This is the home page for the "
+      ror_tutorial: "Ruby on Rails Tutorial"
+      sample_application: "sample application"
+      sign_up_now: "Sign up now!"
+    about:
+      about: "About"
+      and: "and"
+      book: "book"
+      is_a: "is a"
+      ror: "Ruby on Rails"
+      ror_tutorial: "Ruby on Rails Tutorial"
+      sample_application: "This is the sample application for the tutorial"
+      screencast_series: "screencast series"
+      teach: "to teach web development with"
+      the: "The"
+    contact:
+      contact: "Contact"
+      contact_ror_tutorial: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
+    help:
+      help: "Help"
+      get_help: "Get help on the Ruby on Rails Tutorial at the"
+      ror_tutorial: "Ruby on Rails Tutorial"
+      book: "book"
+      to_get_help: "To get help on this sample app, see the"
+      ror_help: "Rails Tutorial help section"
+  users:
+    new:
+      sign_up: "Sign up"
+      message: "This will be a signup page for new users"
+  layouts:
+    footer:
+      by: "by"
+      the: "The"
+      ror_tutorial: "Ruby on Rails Tutorial"
+      author: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+    header:
+      app_name: "sample app"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
