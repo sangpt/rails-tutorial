@@ -181,3 +181,16 @@ input {
     color: $state-danger-text;
   }
 }
+
+.checkbox {
+  margin: -10px 0 10px 0;
+  span {
+    font-weight: normal;
+    margin-left: 20px;
+  }
+}
+
+.box {
+  margin-left: 0 !important;
+  width: auto;
+}
