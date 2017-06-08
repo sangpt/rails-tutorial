@@ -32,6 +32,11 @@ en:
     new:
       sign_up: "Sign up"
       message: "This will be a signup page for new users"
+      confirm: "Comfirmation"
+      create: "Create my account"
+    create:
+      welcome: "Welcome to the Sample App!"
+      error: "Your information is invalid. Please try again."
   layouts:
     footer:
       by: "by"
@@ -46,3 +51,7 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+  shared:
+    error_messages:
+      error: "error"
+      form: "The form contains"
