@@ -51,6 +51,18 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
+      account: "Account"
+  sessions:
+    new:
+      login: "Log in"
+      new_user: "New user"
+      sign_up_now: "Sign up now!"
+    create:
+      invalid: "Invalid email/password combination"
   shared:
     error_messages:
       error: "error"
