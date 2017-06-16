@@ -29,6 +29,12 @@ en:
       to_get_help: "To get help on this sample app, see the"
       ror_help: "Rails Tutorial help section"
   users:
+    user:
+      you_sure: "You sure?"
+      delete: "delete"
+    index:
+      title: "All users"
+      please_log_in: "Please log in"
     new:
       sign_up: "Sign up"
       message: "This will be a signup page for new users"
@@ -37,6 +43,22 @@ en:
     create:
       welcome: "Welcome to the Sample App!"
       error: "Your information is invalid. Please try again."
+    update:
+      updated: "Profile updated"
+      not_updated: "Profile didn't update"
+    edit:
+      title: "Edit user"
+      update: "Update your profile"
+      save: "Save changes"
+      confirmation: "Confirmation"
+      change: "change"
+      please_log_in: "Please log in"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+    destroy:
+      user_deleted: "User deleted"
+      user_not_deleted: "User didn't delete"
   layouts:
     footer:
       by: "by"
