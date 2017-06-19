@@ -43,6 +43,7 @@ en:
     create:
       welcome: "Welcome to the Sample App!"
       error: "Your information is invalid. Please try again."
+      check_email: "Please check your email to activate your account."
     update:
       updated: "Profile updated"
       not_updated: "Profile didn't update"
@@ -86,7 +87,19 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
+      message: "Account not activated. Check your email for the activation link."
   shared:
     error_messages:
       error: "error"
       form: "The form contains"
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      hi: "Hi"
+      subject: "Account activation"
+  account_activations:
+    edit:
+      account_activated: "Account activated"
+      invalid: "Invalid activation link"

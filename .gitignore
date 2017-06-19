@@ -17,7 +17,7 @@
 /yarn-error.log
 
 .byebug_history
-
+test/
 config/settings.local.yml
 config/database.yml
 config/settings/*.local.yml
