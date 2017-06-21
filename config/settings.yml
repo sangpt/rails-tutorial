@@ -11,3 +11,21 @@ user:
   page:
     per_page: 20
   password_reset_expired: 2
+micropost:
+  content:
+    max_length: 140
+  page:
+    per_page: 20
+seed:
+  user:
+    number_fake_users: 99
+  micropost:
+    number_fake_microposts: 50
+feed:
+  page:
+    per_page: 10
+picture:
+  max_size: 5
+  height: 400
+  width: 400
+  file_type: "image/jpeg, image/gif, image/png"
