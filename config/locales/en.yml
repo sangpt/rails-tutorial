@@ -6,6 +6,7 @@ en:
       ror_tutorial: "Ruby on Rails Tutorial"
       sample_application: "sample application"
       sign_up_now: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     about:
       about: "About"
       and: "and"
@@ -44,6 +45,8 @@ en:
       welcome: "Welcome to the Sample App!"
       error: "Your information is invalid. Please try again."
       check_email: "Please check your email to activate your account."
+    show:
+      microposts: "Microposts"
     update:
       updated: "Profile updated"
       not_updated: "Profile didn't update"
@@ -93,6 +96,12 @@ en:
     error_messages:
       error: "error"
       form: "The form contains"
+    user_info:
+      view_my_profile: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      post: "Post"
+      placeholder: "Compose new micropost..."
   user_mailer:
     account_activation:
       title: "Sample App"
@@ -129,3 +138,9 @@ en:
       reset: "Password has been reset."
       empty: "can't be empty"
       error: "something went wrong"
+  microposts:
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+    create:
+      created: "Micropost created!"
