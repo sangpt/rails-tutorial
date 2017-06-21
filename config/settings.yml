@@ -10,3 +10,4 @@ user:
     size_50: 50
   page:
     per_page: 20
+  password_reset_expired: 2
