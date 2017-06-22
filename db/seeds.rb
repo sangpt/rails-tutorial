@@ -10,8 +10,15 @@ Settings.seed.user.number_fake_users.times do |n|
     activated_at: Time.zone.now
 end
 
-users = User.order(:created_at).take 6
+users = User.order(:created_at).take(6)
 Settings.seed.micropost.number_fake_microposts.times do
-  content = Faker::Lorem.sentence 5
-  users.each{|user| user.microposts.create! content: content}
+  content = Faker::Lorem.sentence(5)
+  users.each {|user| user.microposts.create!(content: content)}
 end
+
+users = User.all
+user  = users.first
+following = users[2..50]
+followers = users[3..40]
+following.each {|followed| user.follow(followed)}
+followers.each {|follower| follower.follow(user)}

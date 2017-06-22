@@ -110,13 +110,6 @@ en:
       hi: "Hi"
       subject_account_activation: "Account activation"
       subject_password_reset: "Password reset"
-    password_reset:
-      title: "Password reset"
-      to_reset: "To reset your password click the link below"
-      reset_password: "Reset password"
-      this_link: "This link will expire in two hours"
-      ignore: "If you did not request your password to be reset, please ignore this email and
-        your password will stay as it is"
   account_activations:
     edit:
       account_activated: "Account activated"
@@ -137,16 +130,9 @@ en:
     update:
       reset: "Password has been reset."
       empty: "can't be empty"
-      error: "something went wrong"
   microposts:
     micropost:
       posted: "Posted"
       ago: "ago"
-      you_sure: "You sure?"
     create:
       created: "Micropost created!"
-    destroy:
-      delete: "Micropost deleted"
-      not_delete: "Micropost didn't delete"
-    picture_size:
-      less_than_5mb: "should be less than 5MB"

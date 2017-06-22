@@ -6,7 +6,7 @@ class UsersController < ApplicationController
 
   def index
     @users = User.select(:id, :name, :email).order(name: :asc)
-      .paginate page: params[:page], per_page: Settings.user.page.per_page
+      .paginate page: params[:page], per_page: Settings.user.per_page
   end
 
   def new
@@ -27,9 +27,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    @microposts = @user.microposts
-      .select(:id, :content, :picture, :user_id, :created_at).micropost_sort
-      .paginate page: params[:page], per_page: Settings.micropost.page.per_page
+    @microposts = @user.microposts.paginate page: params[:page],
+      per_page: Settings.micropost.per_page
   end
 
   def edit
@@ -52,6 +51,20 @@ class UsersController < ApplicationController
       flash[:danger] = t ".user_not_deleted"
     end
     redirect_to users_url
+  end
+
+  def following
+    @title = "Following"
+    @users = @user.following.paginate page: params[:page],
+      per_page: Settings.following.per_page
+    render "show_follow"
+  end
+
+  def followers
+    @title = "Followers"
+    @users = @user.followers.paginate page: params[:page],
+      per_page: Settings.follower.per_page
+    render "show_follow"
   end
 
   private
